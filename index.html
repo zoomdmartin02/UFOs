@@ -12,14 +12,14 @@
     />
     <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body>
+<body class="bg-dark">
     <div class="wrapper">
-        <nav class="navbar navbar-expand-lg">
+        <nav  class="navbar navbar-dark bg-dark navbar-expand-lg">
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
     </div>   
     <div class="jumbotron">
-        <h1>The Truth Is Out There</h1>
+        <h1 class="display-4">The Truth Is Out There</h1>
     </div>
     <div class="container-fluid">
         <div class="row">
@@ -38,16 +38,35 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-3">
-                <form>
+                <form class="bg-dark" class="form-inline" id="filters">
                     <p>Filter Search</p>
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <label for="date">Enter Date</label>
-                            <input type="text" placeholder="1/10/2010" id="datetime" />
+                    <ul id="filters" class="list-group" class="bg-dark" style="list-style: none">
+                        <li class="bg-dark" class="list-group-item">
+                            <label class="bg-dark" for="date">Enter Date</label>
+                            <input type="text" placeholder="1/10/2010" id="datetime"/>
                         </li>
-                        <li class="list-group-item">
-                            <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                        <li class="bg-dark" class="list-group-item">
+                            <label class="bg-dark" for="city">Enter City</label>
+                            <input type="text" placeholder="city name" id="city"/>
                         </li>
+                        <li class="bg-dark" class="list-group-item">
+                            <label class="bg-dark" for="state">Enter State</label>
+                            <input type="text" placeholder="2 digit state code" id="state"/>
+                        </li>
+                        <li class="bg-dark" class="list-group-item">
+                            <label class="bg-dark" for="country">Enter Country</label>
+                            <input type="text" placeholder="us" id="country"/>
+                        </li>
+                        <li class="bg-dark" class="list-group-item">
+                            <label class="bg-dark" for="shape">Enter Shape</label>
+                            <input type="text" placeholder="shape type" id="shape" />
+                        </li>
+                        <li></li>
+
+                        <!--
+                        <li class="bg-dark" class="list-group-item" >
+                            <button onClick="updateFilters()" id="filter-btn" type="button" style="background-color:darkslategray; color:white btn btn-dark">Filter Table</button>
+                        </li>-->
                     </ul>
                 </form>
             </div>
