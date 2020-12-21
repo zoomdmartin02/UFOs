@@ -14,7 +14,7 @@ This project was to create a new HTML document, *Index.html*,  that would house 
 
 The HTML document is structured with sections or divided into grids with CSS and Bootstrap styling.  Following image of the site at initial launch.
 
-!web page(/Resources/web_page.png)
+![web page](/Resources/web_page.png)
 
 
 Results: Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
