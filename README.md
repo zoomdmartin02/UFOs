@@ -1,6 +1,6 @@
 # UFOs
 ## Overview of Project 
-Explain the purpose of this analysis.
+
 ### Technologies Involved
 There are multiple technologies that come together in this project:
 * HTML
@@ -27,7 +27,7 @@ The third aread of the page from teh top again is separated into sections by a b
 #### Behind the Scenes
 
 ##### CSS
-The technology driving the stying and data integration are CSS, BootStrap, JavaScript and D3js.  From the following snippet of index.html, you can see that Boodstrap and a CSS file are called in the <head> tag.
+The technology driving the stying and data integration are CSS, BootStrap, JavaScript and D3js.  From the following snippet of index.html, you can see that Boodstrap and a CSS file are called in the ```<head>``` tag.
 
 ```
 <head>
@@ -46,7 +46,7 @@ The technology driving the stying and data integration are CSS, BootStrap, JavaS
 As the document loads and is read, it is important that the styling that is present at the initial load be pulled in from the top of the document.
 
 ##### JavaScript
-At the bottom of the html document, the last items in the <body> tag is the following snippet.
+At the bottom of the html document, the last items in the ```<body>``` tag is the following snippet.
 
 ```
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script> 
